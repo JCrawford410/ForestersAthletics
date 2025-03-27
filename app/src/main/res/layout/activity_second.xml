@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/statisticscreen">
+
+    <TextView
+        android:id="@+id/selectedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85sp"
+        android:layout_marginTop="255sp"
+        android:fontFamily="@font/horizon"
+        android:text="Selected"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="381sp"
+        android:layout_marginEnd="95sp"
+        android:text=" - Sports History"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="365sp"
+        android:layout_height="61sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="491sp"
+        android:layout_marginEnd="30sp"
+        android:text=" - Player Statistics"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19sp"
+        android:layout_marginTop="623sp"
+        android:layout_marginEnd="15sp"
+        android:text=" - Team's Record"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="72sp"
+        android:layout_height="72sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="351sp"
+        android:layout_marginTop="-6sp"
+        android:layout_marginEnd="-12sp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteY="183sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="72sp"
+        android:layout_height="72sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="277sp"
+        android:layout_marginTop="374sp"
+        android:layout_marginEnd="62sp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteY="183sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="72sp"
+        android:layout_height="72sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="305sp"
+        android:layout_marginTop="481sp"
+        android:layout_marginEnd="34.5sp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteY="183sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="72sp"
+        android:layout_height="72sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="283sp"
+        android:layout_marginTop="612sp"
+        android:layout_marginEnd="56sp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteY="183sp" />
+
+    <Button
+        android:id="@+id/teamButton"
+        android:layout_width="379sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16sp"
+        android:layout_marginBottom="62sp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/statisticsButton"
+        android:layout_width="359sp"
+        android:layout_height="63sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="182sp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_width="298sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="305sp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
