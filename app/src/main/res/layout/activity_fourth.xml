@@ -6,40 +6,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FourthActivity"
-    android:background="@color/backgroundColor">
+    android:background="@drawable/teamrecordscreen">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="serif"
-        android:text="Team Record"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="104dp"
+        android:text=" Current Season"
         android:textColor="@color/white"
-        android:textSize="46sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="67sp"
-        android:fontFamily="serif"
-        android:text="Current Season"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:fontFamily="@font/horizon"
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="26sp"
-        android:layout_marginTop="290sp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="290dp"
         android:fontFamily="serif"
         android:text="OVR"
         android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:textSize="28sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,27 +39,27 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="134sp"
-        android:layout_marginTop="290sp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="290dp"
         android:fontFamily="serif"
         android:text="RGN"
         android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:textSize="28sp" />
 
     <TextView
-        android:layout_width="161sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="235sp"
-        android:layout_marginTop="288sp"
-        android:layout_marginEnd="14sp"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="53dp"
         android:fontFamily="serif"
         android:text="MD Rank"
         android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:textSize="28sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -75,8 +67,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="38sp"
-        android:layout_marginTop="345sp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="347dp"
         android:fontFamily="serif"
         android:text="0-0"
         android:textColor="@color/white"
@@ -88,8 +80,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="147sp"
-        android:layout_marginTop="345sp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="347dp"
         android:fontFamily="serif"
         android:text="0-0"
         android:textColor="@color/white"
@@ -101,8 +93,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="270sp"
-        android:layout_marginTop="345sp"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="347dp"
         android:fontFamily="serif"
         android:text="0000"
         android:textColor="@color/white"
