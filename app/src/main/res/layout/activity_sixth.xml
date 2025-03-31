@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SixthActivity"
-    android:background="@drawable/forestersathletics">
+    android:background="@drawable/searchscreen">
 
 
     <ImageButton
@@ -60,7 +60,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="292dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="256dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -94,7 +94,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="169dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="258dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -105,7 +105,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="63dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="258dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck" />
 
