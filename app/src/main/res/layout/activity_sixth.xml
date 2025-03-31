@@ -5,39 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    android:background="@drawable/foresterathletics">
+    tools:context=".SixthActivity"
+    android:background="@drawable/forestersathletics">
 
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="142sp"
-        android:layout_height="30sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="70sp"
-        android:layout_marginTop="269sp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="133sp"
-        android:layout_height="41sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="58sp"
-        android:layout_marginTop="535sp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="118sp"
-        android:layout_height="30sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="60sp"
-        android:layout_marginTop="406sp"
-        tools:layout_editor_absoluteY="183sp" />
 
     <ImageButton
         android:id="@+id/search_button"
@@ -83,63 +53,136 @@
         tools:ignore="SpeakableTextPresentCheck"
         tools:layout_editor_absoluteY="183sp" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="49sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="261sp"
-        android:layout_marginTop="194sp"
-        android:layout_marginEnd="96sp"
-        app:srcCompat="@drawable/searchbtn"
-        tools:layout_editor_absoluteY="183sp" />
-
-    <EditText
-        android:layout_width="253sp"
-        android:layout_height="59sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="185sp"
-        android:layout_marginEnd="82sp"
-        android:fontFamily="serif"
-        android:text="We Are Limitless:"
-        android:textColor="@color/grey"
-        android:textSize="20sp" />
-
     <Button
         android:id="@+id/button_basketball"
-        android:layout_width="151sp"
-        android:layout_height="32sp"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="65sp"
-        android:layout_marginTop="270sp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="252dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button_soccer"
-        android:layout_width="115sp"
-        android:layout_height="34sp"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="64sp"
-        android:layout_marginTop="405sp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="365dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button_football"
-        android:layout_width="133sp"
+        android:layout_width="53sp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="59sp"
-        android:layout_marginTop="532sp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="361dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_baseball"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="252dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_badminton"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="252dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_lacrosse"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="363dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_softball"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="473dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_swimming"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="473dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_tennis"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="473dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_track"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="576dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_volleyball"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="574dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_wrestling"
+        android:layout_width="53sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="574dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck" />
 </RelativeLayout>
